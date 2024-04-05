@@ -19,7 +19,7 @@
 
 /* Para que ocupe el 100% de la pantalla */
 .container {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   background-color: var(--Yellow);
 
@@ -104,7 +104,7 @@
   }
 }
 
-.character-container {
+.card {
   display: flex;
   flex-direction: row;
   align-items: center;
