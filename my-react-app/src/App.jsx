@@ -102,7 +102,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <img src="assets/simpson-tittle.jpg" alt="Título Simpsons" />
+        <img src="./src/assets/simpson-tittle.jpg" alt="Título Simpsons" />
       </div>
       
       <div className="blue-container">
