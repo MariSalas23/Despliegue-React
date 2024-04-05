@@ -38,6 +38,21 @@ function App() {
     }
   };
 
+  const searchRandomCharacter = async () => {
+    try {
+      const response = await fetch('https://thesimpsonsquoteapi.glitch.me/quotes');
+      if (!response.ok) {
+        throw new Error('Failed to fetch random character data');
+      }
+      const data = await response.json();
+      const randomIndex = Math.floor(Math.random() * data.length);
+      setCharacter(data[randomIndex]);
+    } catch (error) {
+      console.error('Error fetching random character data:', error);
+      alert('Error fetching random character data. Please try again later.');
+    }
+  };
+
   return (
     <div className="container">
       <div className="header">
@@ -64,7 +79,7 @@ function App() {
             </div>
 
             <div className="form-row">
-              <label htmlFor="random-character">Search random:</label>
+              <label htmlFor="random-character" onClick={searchRandomCharacter}>Search random:</label>
               <button className="random-character-btn" type="button">Click here!</button>
             </div>
           </form>
