@@ -50,9 +50,11 @@
 .blue-container {
   display: flex;
   flex-direction: column;
+  align-self: center;
   margin: 2rem;
   padding: 1rem;
 
+  width: 90%;
   border-radius: 2rem;
   border: 0.2rem solid black;
   background-color: var(--Blue);
