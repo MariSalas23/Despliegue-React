@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({ name, image, quotes }) => {
   return (
     <div className="card">
-      <div className="image-container">
+      <div className="image-container-character">
         <img src={image} alt="Character" />
       </div>
 
