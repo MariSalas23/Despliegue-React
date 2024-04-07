@@ -22,10 +22,6 @@
   height: 100%;
   width: 100vw;
   background-color: var(--Yellow);
-
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
 
 .header {

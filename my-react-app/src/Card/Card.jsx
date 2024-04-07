@@ -6,7 +6,6 @@ const Card = ({ name, image, quotes }) => {
       <div className="image-container-character">
         <img src={image} alt="Character" />
       </div>
-
       <div className="text-container-character">
           <h2>Character:</h2>
           <p>{name}</p>
