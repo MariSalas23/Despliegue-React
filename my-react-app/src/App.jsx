@@ -113,7 +113,7 @@ function App() {
             </div>
 
             <div className="form-row">
-              <label htmlFor="random-character">Search random by quote:</label>
+              <label htmlFor="random-character">Search random (quote):</label>
               <button className="random-character-btn" type="button" onClick={handleRandomButtonClick}>Click here!</button>
             </div>
           </form>

@@ -13,7 +13,7 @@
   padding: 0;
 
   font-family: 'Lato', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -22,6 +22,10 @@
   height: 100%;
   width: 100vw;
   background-color: var(--Yellow);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .header {
@@ -50,7 +54,7 @@
   margin: 2rem;
   padding: 1rem;
 
-  width: 90%;
+  width: 82%;
   border-radius: 2rem;
   border: 0.2rem solid black;
   background-color: var(--Blue);
@@ -89,7 +93,7 @@
 
   input,button {
       padding: 0.2rem;
-      width: 15rem;
+      width: 13rem;
       border-radius: 0.8rem;
       border: 0.18rem solid black;
       box-sizing: border-box; 
