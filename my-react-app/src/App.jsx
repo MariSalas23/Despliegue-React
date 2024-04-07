@@ -1,3 +1,4 @@
+import simpsonTitle from './assets/simpson-tittle.jpg';
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Card from './Card/Card';
@@ -96,7 +97,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <img src="./src/assets/simpson-tittle.jpg" alt="Título Simpsons" />
+      <img src={simpsonTitle} alt="Título Simpsons" />
       </div>
       
       <div className="blue-container">
