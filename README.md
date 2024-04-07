@@ -6,6 +6,20 @@
 
 Mariana Salas Gutiérrez
 
+## Despliegue Vercel
+
+Link:
+
+## Imágenes
+
+Inicio
+![Vista inicio](./my-react-app/src/assets/start.jpg)
+
+Búsqueda + Hovers
+![Vista búsqueda por nombre](./my-react-app/src/assets/search-name.jpg)
+![Vista búsqueda por número de frases](./my-react-app/src/assets/search-number.jpg)
+![Vista búsqueda por frase](./my-react-app/src/assets/search-quote.jpg)
+
 ## Funcionalidades
 
 - Crear una aplicación web que se comunique con la API propuesta: https://thesimpsonsquoteapi.glitch.me/
