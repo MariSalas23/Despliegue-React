@@ -8,7 +8,11 @@ Mariana Salas Gutiérrez
 
 ## Despliegue Vercel
 
-Link:
+Link: https://the-simpsons-characters.vercel.app/
+
+## Repositorio usado para desplegar
+
+Link: https://github.com/MariSalas23/Despliegue-React.git
 
 ## Imágenes
 
